@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/fs120_html-css_OlhaLoz96/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="EcoTote" />
+    <title>EcoTote</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fira+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="module" crossorigin src="/fs120_html-css_OlhaLoz96/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/fs120_html-css_OlhaLoz96/assets/index-Dgtsk8Zy.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container wrap-header">
+    <nav class="center-nav">
+      <a class="header-logo" href="./index.html">
+        <img src="/fs120_html-css_OlhaLoz96/assets/logo_header-QCOicZAA.svg" alt="логотип" />
+      </a>
+      <ul class="header-nav">
+        <li class="header-nav-item">
+          <a class="nav-item-link" href="#about">Про нас</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="nav-item-link" href="#advantages">Переваги</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="nav-item-link" href="#assortment">Асортимент</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="nav-item-link" href="#gallery">Галерея</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="nav-item-link" href="#feedbacks">Відгуки</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="nav-item-link" href="#support">Контакти</a>
+        </li>
+      </ul>
+    </nav>
+
+    <address class="address">
+      <ul class="header-address">
+        <li class="header-address-item">
+          <a class="address-item-link" href="mailto:hello@ecotote.com"
+            >hello@ecotote.com</a
+          >
+        </li>
+        <li class="header-address-item">
+          <a class="address-item-link" href="tel:+380999091122"
+            >+38 (099) 909 11 22</a
+          >
+        </li>
+      </ul>
+    </address>
+
+    <button data-menu-open class="burger" type="button">
+      <svg class="burger-icon" width="32" height="32">
+        <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
+  <!---------- mobal menu -->
+  <div class="mobal-menu-backdrop" data-menu>
+    <div class="container wrap-menu">
+      <nav class="mobal-nav">
+        <a class="header-logo menu-logo" href="./index.html">
+          <img src="/fs120_html-css_OlhaLoz96/assets/logo_header-QCOicZAA.svg" alt="логотип" />
+        </a>
+        <ul class="mobal-nav-list">
+          <li class="mobal-nav-item">
+            <a class="nav-item-link" data-menu-close href="#about">Про нас</a>
+          </li>
+          <li class="mobal-nav-item">
+            <a class="nav-item-link" data-menu-close href="#advantages"
+              >Переваги</a
+            >
+          </li>
+          <li class="mobal-nav-item">
+            <a class="nav-item-link" data-menu-close href="#assortment"
+              >Асортимент</a
+            >
+          </li>
+          <li class="mobal-nav-item">
+            <a class="nav-item-link" data-menu-close href="#gallery">Галерея</a>
+          </li>
+          <li class="mobal-nav-item">
+            <a class="nav-item-link" data-menu-close href="#feedbacks"
+              >Відгуки</a
+            >
+          </li>
+          <li class="mobal-nav-item">
+            <a class="nav-item-link" data-menu-close href="#support"
+              >Контакти</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <address class="mobal-address">
+        <ul class="mobile-adress-list">
+          <li class="mobal-address-item">
+            <a class="address-item-link" href="mailto:hello@ecotote.com"
+              >hello@ecotote.com</a
+            >
+          </li>
+          <li class="mobal-address-item">
+            <a class="address-item-link" href="tel:+380999091122"
+              >+38 (099) 909 11 22</a
+            >
+          </li>
+        </ul>
+      </address>
+
+      <button data-menu-close class="button-menu button-close" type="button">
+        <svg class="btn-close-icon" width="32" height="32">
+          <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero">
+  <div class="container hero-container">
+    <div class="hero-cover">
+      <h1 class="hero-title">EcoTote — Стиль, що не шкодить планеті</h1>
+      <div class="hero-cover-text">
+        <p class="hero-text">
+          Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
+          відповідальність разом з EcoTote.
+        </p>
+        <a href="#assortment" class="hero-btn">Купити зараз</a>
+      </div>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="/fs120_html-css_OlhaLoz96/assets/hero-desk-BQqtKATC.webp 1x, /fs120_html-css_OlhaLoz96/assets/hero-desk@2x-fvhkrKT5.webp 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/fs120_html-css_OlhaLoz96/assets/hero-tab-B9rQa_gB.webp 1x, /fs120_html-css_OlhaLoz96/assets/hero-tab@2x-COA2Cr57.webp 2x"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="/fs120_html-css_OlhaLoz96/assets/hero-mob-CAw8bRyL.webp 1x, /fs120_html-css_OlhaLoz96/assets/hero-mob@2x-ogavEaB_.webp 2x"
+      />
+      <img
+        class="hero-image"
+        src="/fs120_html-css_OlhaLoz96/assets/hero-desk-BQqtKATC.webp"
+        alt="екологічні сумки"
+        width="1312"
+      />
+    </picture>
+  </div>
+</section>
+
+      <section class="about" id="about">
+  <div class="container">
+    <h2 class="about-over-title">Природність</h2>
+    <p class="about-title title">Турбота про планету</p>
+    <p class="about-text">
+      Ми використовуємо органічну бавовну, перероблений пластик, льон та коноплі
+      для наших сумок.
+    </p>
+  </div>
+</section>
+
+      <section class="advantages" id="advantages">
+  <div class="advantages-wrapper container">
+    <p class="advantages-accent-text">Переваги</p>
+    <h2 class="advantages-title title">Чому обрати нас?</h2>
+    <p class="advantages-text">
+      Наші сумки виготовлені з екологічно чистих матеріалів, що забезпечують
+      стійкість і довговічність. Обираючи EcoTote, ви підтримуєте екологічну
+      відповідальність.
+    </p>
+    <ul class="advantages-list">
+      <li class="advantages-item">
+        <picture>
+          <source
+            srcset="/fs120_html-css_OlhaLoz96/assets/threads-desk-KrA_Z2gR.webp 1x, /fs120_html-css_OlhaLoz96/assets/threads-desk2x-iQL7DY03.webp 2x"
+            media="(min-width:1440px)"
+          />
+          <source
+            srcset="/fs120_html-css_OlhaLoz96/assets/threads-tab-DHWf8z9f.webp 1x, /fs120_html-css_OlhaLoz96/assets/threads-tab2x-BX_yaHyX.webp 2x"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/fs120_html-css_OlhaLoz96/assets/threads-mob-BYZ9IZOu.webp 1x, /fs120_html-css_OlhaLoz96/assets/threads-mob2x-CC-zCs4B.webp 2x"
+            media="(max-width:767px)"
+          />
+          <img
+            class="advantages-img"
+            src="/fs120_html-css_OlhaLoz96/assets/threads-desk-KrA_Z2gR.webp"
+            alt="мотки бавовняних ниток на столі"
+            width="421"
+          />
+        </picture>
+        <div class="advantages-points-wrapper">
+          <h3 class="advantages-subtitle">Стійкість та екологічність</h3>
+          <p class="advantages-points">
+            Виготовлені з органічної бавовни та переробленого пластику.
+          </p>
+        </div>
+      </li>
+
+      <li class="advantages-item">
+        <picture>
+          <source
+            srcset="/fs120_html-css_OlhaLoz96/assets/sewing-desk-DkpZxkdD.webp 1x, /fs120_html-css_OlhaLoz96/assets/sewing-desk2x-D3IeSHbP.webp 2x"
+            media="(min-width:1440px)"
+          />
+          <source
+            srcset="/fs120_html-css_OlhaLoz96/assets/sewing-tab-D9SidsYB.webp 1x, /fs120_html-css_OlhaLoz96/assets/sewing-tab2x-5tPYX33R.webp 2x"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/fs120_html-css_OlhaLoz96/assets/sewing-mob-cuiAfa7m.webp 1x, /fs120_html-css_OlhaLoz96/assets/sewing-mob2x-B-lR32Lp.webp 2x"
+            media="(max-width:767px)"
+          />
+          <img
+            class="advantages-img"
+            src="/fs120_html-css_OlhaLoz96/assets/sewing-desk-DkpZxkdD.webp"
+            alt="людина шиє на швейній машині"
+            width="421"
+          />
+        </picture>
+
+        <div class="advantages-points-wrapper">
+          <h3 class="advantages-subtitle">Міцність і довговічність</h3>
+          <p class="advantages-points">
+            Наші сумки мають посилені шви для тривалого використання.
+          </p>
+        </div>
+      </li>
+      <li class="advantages-item">
+        <picture>
+          <source
+            srcset="/fs120_html-css_OlhaLoz96/assets/stylish-design-desk-PfSEWj2e.webp 1x, /fs120_html-css_OlhaLoz96/assets/stylish-design-desk2x-C4Bruipn.webp 2x"
+            media="(min-width:1440px)"
+          />
+          <source
+            srcset="/fs120_html-css_OlhaLoz96/assets/stylish-design-tab-BD06jOc3.webp 1x, /fs120_html-css_OlhaLoz96/assets/stylish-design-tab2x-BQ31NiSo.webp 2x"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/fs120_html-css_OlhaLoz96/assets/stylish-design-mob-DJlX4G_s.webp 1x, /fs120_html-css_OlhaLoz96/assets/stylish-design-mob2x-DbMpOpOq.webp 2x"
+            media="(max-width:767px)"
+          />
+          <img
+            class="advantages-img"
+            src="/fs120_html-css_OlhaLoz96/assets/stylish-design-tab-BD06jOc3.webp"
+            alt="три сумки стоїть на столі"
+            width="704"
+          />
+        </picture>
+
+        <div class="advantages-points-wrapper">
+          <h3 class="advantages-subtitle">Стильний та сучасний дизайн</h3>
+          <p class="advantages-points">
+            Мінімалістичні моделі в обмежених серіях для кожного стилю.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="assortment" id="assortment">
+  <div class="container">
+    <h2 class="assortment-title title">Наші сумки</h2>
+    <ul class="assortment-list">
+      <li class="assortment-item">
+        <img
+          class="assortment-image"
+          srcset="/fs120_html-css_OlhaLoz96/assets/assortment-bag-1-DDCj9DlU.webp 1x, /fs120_html-css_OlhaLoz96/assets/assortment-bag-1@2x-gUdR2RTK.webp 2x"
+          src="/fs120_html-css_OlhaLoz96/assets/assortment-bag-1-DDCj9DlU.webp"
+          alt="Сумка EcoBag Classic"
+          width="340"
+        />
+        <div class="assortment-item-info">
+          <h3 class="assortment-item-name">EcoBag Classic</h3>
+          <p class="assortment-item-desc">
+            Елегантна та містка сумка для щоденного використання.
+          </p>
+          <p class="assortment-item-price">$25</p>
+        </div>
+        <button class="assortment-button" type="button">Купити</button>
+      </li>
+      <li class="assortment-item">
+        <img
+          class="assortment-image"
+          srcset="/fs120_html-css_OlhaLoz96/assets/assortment-bag-2-BNbs4AI3.webp 1x, /fs120_html-css_OlhaLoz96/assets/assortment-bag-2@2x-BDva-Dia.webp 2x"
+          src="/fs120_html-css_OlhaLoz96/assets/assortment-bag-2-BNbs4AI3.webp"
+          alt="Сумка EcoTote Shopper"
+          width="340"
+        />
+        <div class="assortment-item-info">
+          <h3 class="assortment-item-name">EcoTote Shopper</h3>
+          <p class="assortment-item-desc">
+            Ідеальна для покупок, з посиленими ручками.
+          </p>
+          <p class="assortment-item-price">$30</p>
+        </div>
+        <button class="assortment-button" type="button">Купити</button>
+      </li>
+      <li class="assortment-item">
+        <img
+          class="assortment-image"
+          srcset="/fs120_html-css_OlhaLoz96/assets/assortment-bag-3-Ci62DxkU.webp 1x, /fs120_html-css_OlhaLoz96/assets/assortment-bag-3@2x-27wdQi5Y.webp 2x"
+          src="/fs120_html-css_OlhaLoz96/assets/assortment-bag-3-Ci62DxkU.webp"
+          alt="Сумка EcoBackpack Urban"
+          width="340"
+        />
+        <div class="assortment-item-info">
+          <h3 class="assortment-item-name">EcoBackpack Urban</h3>
+          <p class="assortment-item-desc">
+            Зручний рюкзак для міста з відділенням для ноутбука.
+          </p>
+          <p class="assortment-item-price">$45</p>
+        </div>
+        <button class="assortment-button" type="button">Купити</button>
+      </li>
+      <li class="assortment-item">
+        <img
+          class="assortment-image"
+          srcset="/fs120_html-css_OlhaLoz96/assets/assortment-bag-4-BOcqkPdw.webp 1x, /fs120_html-css_OlhaLoz96/assets/assortment-bag-4@2x-CSHlofDC.webp 2x"
+          src="/fs120_html-css_OlhaLoz96/assets/assortment-bag-4-BOcqkPdw.webp"
+          alt="Сумка EcoCrossbody Mini"
+          width="340"
+        />
+        <div class="assortment-item-info">
+          <h3 class="assortment-item-name">EcoCrossbody Mini</h3>
+          <p class="assortment-item-desc">
+            Компактна сумка через плече для найнеобхіднішого.
+          </p>
+          <p class="assortment-item-price">$20</p>
+        </div>
+        <button class="assortment-button" type="button">Купити</button>
+      </li>
+      <li class="assortment-item">
+        <img
+          class="assortment-image"
+          srcset="/fs120_html-css_OlhaLoz96/assets/assortment-bag-5-CLI0a7vF.webp 1x, /fs120_html-css_OlhaLoz96/assets/assortment-bag-5@2x-eJ6-g1Pk.webp 2x"
+          src="/fs120_html-css_OlhaLoz96/assets/assortment-bag-5-CLI0a7vF.webp"
+          alt="Сумка EcoLunch Bag"
+          width="340"
+        />
+        <div class="assortment-item-info">
+          <h3 class="assortment-item-name">EcoLunch Bag</h3>
+          <p class="assortment-item-desc">
+            Стильна та практична сумка для обідів.
+          </p>
+          <p class="assortment-item-price">$15</p>
+        </div>
+        <button class="assortment-button" type="button">Купити</button>
+      </li>
+      <li class="assortment-item">
+        <img
+          class="assortment-image"
+          srcset="/fs120_html-css_OlhaLoz96/assets/assortment-bag-6-Ck1EyAsU.webp 1x, /fs120_html-css_OlhaLoz96/assets/assortment-bag-6@2x--s3yfLk2.webp 2x"
+          src="/fs120_html-css_OlhaLoz96/assets/assortment-bag-6-Ck1EyAsU.webp"
+          alt="Сумка EcoBeach Tote"
+          width="340"
+        />
+        <div class="assortment-item-info">
+          <h3 class="assortment-item-name">EcoBeach Tote</h3>
+          <p class="assortment-item-desc">
+            Велика сумка для пляжних речей з водонепроникною підкладкою.
+          </p>
+          <p class="assortment-item-price">$35</p>
+        </div>
+        <button class="assortment-button" type="button">Купити</button>
+      </li>
+      <li class="assortment-item">
+        <img
+          class="assortment-image"
+          srcset="/fs120_html-css_OlhaLoz96/assets/assortment-bag-7-VMb2y9K8.webp 1x, /fs120_html-css_OlhaLoz96/assets/assortment-bag-7@2x-BIabt9Yi.webp 2x"
+          src="/fs120_html-css_OlhaLoz96/assets/assortment-bag-7-VMb2y9K8.webp"
+          alt="Сумка EcoTravel Duffle"
+          width="340"
+        />
+        <div class="assortment-item-info">
+          <h3 class="assortment-item-name">EcoTravel Duffle</h3>
+          <p class="assortment-item-desc">
+            Містка дорожня сумка з додатковими кишенями.
+          </p>
+          <p class="assortment-item-price">$60</p>
+        </div>
+        <button class="assortment-button" type="button">Купити</button>
+      </li>
+      <li class="assortment-item">
+        <img
+          class="assortment-image"
+          srcset="/fs120_html-css_OlhaLoz96/assets/assortment-bag-8-B7ru0fMq.webp 1x, /fs120_html-css_OlhaLoz96/assets/assortment-bag-8@2x-Xd4R6CR0.webp 2x"
+          src="/fs120_html-css_OlhaLoz96/assets/assortment-bag-8-B7ru0fMq.webp"
+          alt="Сумка EcoKids Bag"
+          width="340"
+        />
+        <div class="assortment-item-info">
+          <h3 class="assortment-item-name">EcoKids Bag</h3>
+          <p class="assortment-item-desc">Яскрава та зручна сумка для дітей.</p>
+          <p class="assortment-item-price">$22</p>
+        </div>
+        <button class="assortment-button" type="button">Купити</button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="gallery" id="gallery">
+  <div class="container">
+    <h2 class="gallery-title title">Галерея зображень</h2>
+    <p class="gallery-subtitle">EcoTotes у повсякденному житті</p>
+    <ul class="gallery-list">
+      <li class="gallery-list-item bag">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-bag-BCmq1rBS.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-bag@2x-oaGYNxOF.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-tablet-image-bag-JUmk6w8H.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-tablet-image-bag@2x-DINrGit5.webp 2x"
+          />
+
+          <source
+            media="(max-width: 767px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-mob-image-bag-CkZemeOk.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-mob-image-bag@2x-CnMP5BKJ.webp 2x"
+          />
+
+          <img
+            src="/fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-bag-BCmq1rBS.webp"
+            alt="Сумка EcoTote"
+            width="421"
+            height="421"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list-item man">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-man-gbQ8suOS.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-man@2x-D-GNZxAw.webp 2x"
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-tablet-image-man-B8h5nHWV.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-tablet-image-man@2x-zPx6kF8P.webp 2x"
+          />
+
+          <source
+            media="(max-width: 767px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-mob-image-man-swBvwQ4O.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-mob-image-man@2x-D-DDbluq.webp 2x"
+          />
+
+          <img
+            src="/fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-man-gbQ8suOS.webp"
+            alt="Чоловік в місті з сумкою EcoTote"
+            width="421"
+            height="865"
+          />
+        </picture>
+      </li>
+
+      <li class="gallery-list-item park">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-park-BdK6GiiA.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-park@2x-BQy-4jwg.webp 2x"
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-tablet-image-park-CHKLx32Q.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-tablet-image-park@2x-TrVYLzKk.webp 2x"
+          />
+
+          <source
+            media="(max-width: 767px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-mob-image-park-COB5tT1p.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-mob-image-park@2x-DKBWWkcD.webp 2x"
+          />
+
+          <img
+            src="/fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-park-BdK6GiiA.webp"
+            alt="Чоловік в парку з сумкою EcoTote"
+            width="421"
+            height="865"
+          />
+        </picture>
+      </li>
+      <li class="gallery-list-item girl">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-girl-DiuxOtm_.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-girl@2x-CCirbUw6.webp 2x"
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-tablet-image-girl-DO1rXk38.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-tablet-image-girl@2x-BHhXOCXm.webp 2x"
+          />
+
+          <source
+            media="(max-width: 767px)"
+            srcset="/fs120_html-css_OlhaLoz96/assets/gallery-mob-image-girl-CXD5z5Fc.webp 1x, /fs120_html-css_OlhaLoz96/assets/gallery-mob-image-girl@2x-COomhVqp.webp 2x"
+          />
+
+          <img
+            src="/fs120_html-css_OlhaLoz96/assets/gallery-desktop-image-girl-DiuxOtm_.webp"
+            alt="Дівчина з сумкою EcoTote"
+            width="421"
+            height="421"
+          />
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section id="feedbacks" class="feedbacks">
+  <div class="container">
+    <h2 class="title feedbacks-title">Що говорять наші клієнти</h2>
+    <ul class="feedbacks-list">
+      <li class="feedbacks-item">
+        <ul class="stars-list">
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="feedbacks-text">
+          Сумка дуже зручна та стильна, використовую щодня!
+        </p>
+        <p class="feedbacks-author">Анна</p>
+      </li>
+      <li class="feedbacks-item">
+        <ul class="stars-list">
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star black">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="feedbacks-text">
+          Відмінна якість матеріалів, приємно здивована.
+        </p>
+        <p class="feedbacks-author">Ігор</p>
+      </li>
+      <li class="feedbacks-item">
+        <ul class="stars-list">
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star black">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="feedbacks-text">
+          Сумка повністю відповідає опису, рекомендую!
+        </p>
+        <p class="feedbacks-author">Олена</p>
+      </li>
+      <li class="feedbacks-item">
+        <ul class="stars-list">
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+          <li class="star">
+            <svg class="icon-star" width="20" height="19">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-star"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="feedbacks-text">Швидка доставка та гарне обслуговування.</p>
+        <p class="feedbacks-author">Сергій</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="support section" id="support">
+  <div class="container support-wrapper">
+    <div class="support-contents">
+      <div class="support-section-top">
+        <h2 class="support-title title">
+          Залишились питання? Зв'яжіться з нами!
+        </h2>
+        <p class="support-text">Ми тут, щоб допомогти!</p>
+      </div>
+      <form class="support-form">
+        <div class="support-form-item">
+          <label class="support-form-title" for="username">Ім'я</label>
+          <input
+            class="support-form-input"
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Іван"
+            required
+            minlength="5"
+            maxlength="64"
+          />
+          <p class="support-text-invalid">Повинно бути не менше 5 символів</p>
+        </div>
+        <div class="support-form-item">
+          <label class="support-form-title" for="email">Електронна пошта</label>
+          <input
+            class="support-form-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="hello@ecotote.com"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$"
+            required
+          />
+          <p class="support-text-invalid">
+            Некоректний e-mail, спробуйте ще раз
+          </p>
+        </div>
+        <div class="support-form-item">
+          <label class="support-form-title" for="comments">Повідомлення</label>
+          <textarea
+            class="support-form-input support-form-comment"
+            id="comments"
+            name="comments"
+            placeholder="Введіть своє повідомлення..."
+            maxlength="500"
+          ></textarea>
+          <p class="support-text-invalid">
+            Повинно бути не більше 500 символів
+          </p>
+        </div>
+        <button class="support-form-btn" type="submit">Надіслати</button>
+      </form>
+    </div>
+    <div class="support-img"></div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="page-footer">
+  <div class="container footer-container">
+    <div class="high-footer">
+      <a class="logo-footer" href="./index.html">
+        <img src="/fs120_html-css_OlhaLoz96/assets/logo-footer-Bu0__chz.svg" alt="Логотип" />
+      </a>
+
+      <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a href="#about" class="footer-nav-link"> Про нас </a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#advantages" class="footer-nav-link"> Переваги </a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#assortment" class="footer-nav-link"> Асортимент </a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#gallery" class="footer-nav-link"> Галерея </a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#feedbacks" class="footer-nav-link"> Відгуки </a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#support" class="footer-nav-link"> Контакти </a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="footer-media">
+        <li class="footer-media-item">
+          <a
+            href="https://www.instagram.com/"
+            class="footer-media-link"
+            target="_blank"
+          >
+            <svg class="footer-icon" width="32" height="32">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="footer-media-item">
+          <a
+            href="https://www.linkedin.com/"
+            class="footer-media-link"
+            target="_blank"
+          >
+            <svg class="footer-icon" width="32" height="32">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-media-item">
+          <a
+            href="https://www.youtube.com/"
+            class="footer-media-link"
+            target="_blank"
+          >
+            <svg class="footer-icon" width="32" height="32">
+              <use href="/fs120_html-css_OlhaLoz96/assets/icons-B3aW88o-.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-down">
+      <address class="footer-address">
+        <ul class="footer-contacts" id="contacts">
+          <li>
+            <a class="item-contacts" href="tel:+380999091122"
+              >+38 (099) 909 11 22</a
+            >
+          </li>
+          <li>
+            <a class="item-contacts" href="mailto:hello@ecotote.com"
+              >hello@ecotote.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <p class="copyright">&copy; 2025 EcoTote. Всі права захищені.</p>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+</html>
